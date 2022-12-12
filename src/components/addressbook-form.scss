@@ -1,0 +1,229 @@
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 0px solid black;
+    margin-left: 120px;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid grey;
+}
+
+.addressBook-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: blue;
+    text-transform: capitalize;
+}
+
+.addressBook-book {
+    color:black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.form-content {
+    min-height: calc(100% - 80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 0px solid lightblue;
+}
+
+.form {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    width: 700px;
+    margin: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head {
+    display: flex;
+    background: blue 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-head-text {
+    flex: auto;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font: normal normal normal 24px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 10px;
+}
+
+.form-head-image{
+    width: 50px;
+}
+
+.row-content {
+    margin-left: 30px;
+    min-width: 80%;
+    min-height: 80%;
+    max-width: 100%;
+  
+}
+
+.form-constrains {
+    margin: 2% 10%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+label {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.text {
+    // text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+}
+
+.input {
+    font-weight: normal;
+    font-size: 600;
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    opacity: 1;
+    resize: horizontal;
+    padding: 16px 12px;
+}
+
+.input1 {
+    font-weight: normal;
+    width: 80%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    opacity: 1;
+    resize: horizontal;
+    padding: 16px 12px;
+}
+
+textarea {
+    height: 80%;
+    font-weight: bolder;
+    width: 100%;
+    resize: none;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 10px 0px 40px 10px;
+    margin-top: 10px;
+}
+
+.column-constrains {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 19px;
+}
+
+.column-content {
+    flex: 2;
+}
+
+// select {
+//     padding: 12px;
+//     background: #ffffff 0% 0% no-repeat padding-box;
+//     border: 1px solid #bdbdbd;
+//     border-radius: 3px;
+//     text-align: left;
+//     font: normal normal normal 18px/24px Roboto;
+//     letter-spacing: 0px;
+//     color: #42515f;
+//     opacity: 1;
+//     width: 80%;
+// }
+
+.zipcode {
+    padding: 15px;
+    width: 140px;
+}
+
+error-output {
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+}
+.buttons-contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 0px 0px 0px 10px;
+}
+
+.button-submit {
+    background: rgb(189, 189, 189) 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.button-reset {
+    background:  rgb(189, 189, 189) 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.button-reset:hover {
+    background-color: violet;
+}
+.button-submit:hover {
+    box-shadow: 0px 8px 15px rgba(77, 74, 74, 0.3);
+    background-color: yellowgreen;
+}
